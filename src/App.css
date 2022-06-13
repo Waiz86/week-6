@@ -1,8 +1,17 @@
-.App {
-  text-align: center;
+/* .App {
+  text-align: center
+  ;
+} */
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;     
+  border: solid 2px;
 }
 
-.App-logo {
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +44,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .App {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+} */
+div{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: solid 2px;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
 }
+
